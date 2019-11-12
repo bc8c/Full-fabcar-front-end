@@ -1,0 +1,29 @@
+<% if(activate=="index"){ %>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="./api/queryallcars">Query all cars</a></li>
+        <li role="presentation"><a href="./api/createcar">Create a car</a></li>
+        <li role="presentation"><a href="./api/changeowner">Change owner</a></li>
+    </ul>
+<% }else if(activate=="query"){ %>
+    <ul class="nav nav-tabs"> 
+        <li role="presentation"><a href="/">Home</a></li>
+        <li role="presentation" class="active"><a href="../../api/queryallcars">Query all cars</a></li>
+        <li role="presentation"><a href="../../api/createcar">Create a car</a></li>
+        <li role="presentation"><a href="../../api/changeowner">Change owner</a></li>
+    </ul>
+<% }else if(activate=="createcar"){ %>
+    <ul class="nav nav-tabs"> 
+        <li role="presentation"><a href="/">Home</a></li>
+        <li role="presentation"><a href="../../api/queryallcars">Query all cars</a></li>
+        <li role="presentation" class="active"><a href="../../api/createcar">Create a car</a></li>
+        <li role="presentation"><a href="../../api/changeowner">Change owner</a></li>
+    </ul>
+<% }else{ %>
+    <ul class="nav nav-tabs"> 
+        <li role="presentation"><a href="/">Home</a></li>
+        <li role="presentation"><a href="../../api/queryallcars">Query all cars</a></li>
+        <li role="presentation"><a href="../../api/createcar">Create a car</a></li>
+        <li role="presentation" class="active"><a href="../../api/changeowner">Change owner</a></li>
+    </ul>
+<% } %>

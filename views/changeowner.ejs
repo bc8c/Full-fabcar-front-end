@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('partials/head') %>
+  </head>
+
+  <body>
+    <div class="container">
+      <i class="fas fa-user-check"></i>
+      <h1>ChangeOwner Page</h1>
+      <p>Owner change!</p>
+      <%- include('partials/navbar') %>
+
+      <form method="post">
+        CarNo <input type="text" name="carno" /> <br>
+        Owner <input type="text" name="owner" /> <br>
+        <button type="submit" class="btn btn-info">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
