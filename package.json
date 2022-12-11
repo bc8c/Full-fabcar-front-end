@@ -9,7 +9,7 @@
     "dependencies": {
         "body-parser": "^1.19.0",
         "ejs": "^2.6.2",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "fabric-ca-client": "^1.4.4",
         "fabric-network": "^1.4.4",
         "grpc": "^1.22.2"
